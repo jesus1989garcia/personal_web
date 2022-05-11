@@ -1,0 +1,37 @@
+[
+  {
+    "skillName": "React.js",
+    "description": "Making apps and webs using React",
+    "photo": "https://raw.githubusercontent.com/reactjs/reactjs.org/main/src/icons/logo.svg"
+  },
+  {
+    "skillName": "Api's",
+    "description": "Create API's as well as using third party APi's",
+    "photo": "https://cdn-icons-png.flaticon.com/512/2165/2165004.png"
+
+  },
+  {
+    "skillName": "MongoDb & Atlas",
+    "description": "Conecting and migrating data in non SQL db's.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/1920px-MongoDB_Logo.svg.png"
+
+  },
+  {
+    "skillName": "Git & Github",
+    "description": "Commands and working on organizations",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/2/29/GitHub_logo_2013.svg"
+
+  },
+  {
+    "skillName": "CSS3",
+    "description": "Styling the face of the app/web using the cascades style sheets. Responsive design",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+
+  },
+  { 
+    "skillName": "Html5",
+    "description": "The basic backbone of the website",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+
+  }
+]
