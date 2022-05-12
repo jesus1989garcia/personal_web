@@ -39,23 +39,25 @@
 /*home styling*/
 
 .home {
-  background-color: rgb(1, 112, 156);
-  width: 80vw;
-  height: 85vh;
+  background-image: url(./imgs/bg-mywebsite.jpg);
+  max-width: 100vw;
+  height: 100vh;
+  background-size: cover;
   display: flex;
-  margin: 2px auto 0px auto;
+  margin: 0px auto;
   align-items: center;
   justify-content: space-around;
 }
 
 .text-home {
-  
+  color: white;
   font-size: 1.6rem;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.8;
+  padding: 40px;
 }
 
-.img-container {
 
-}
 
 .portrait-img {
   width: 300px;
@@ -71,16 +73,18 @@
   background-repeat: no-repeat;
   margin-top: 0px;
   width: 100;
+  padding: 30px ;
 }
 
 .skill-card {
   background-color: black;
+  opacity: 0.8;
   width: 800px;
   height: 150px;
-  margin: auto ;
+  margin: 10px auto;
   display: flex;
   color: aliceblue;
-  margin-top: 10px;
+  
 }
 
 .skill-imgbox {
@@ -93,4 +97,63 @@
   margin: 10px 50px;
 }
 
+/* projects */
 
+.projects {
+  background-image: url(./imgs/bg-mywebsite.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.project-box {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.8;
+  height: 300px;
+  width: 800px;
+  margin-top: 90px;
+  display: flex;
+  color: white;
+  flex-direction: row;
+
+}
+
+.proj-img-box {
+  height: 300px;
+  width: auto;
+}
+
+.img-proj {
+  height: 100%;
+  width: auto;
+}
+
+.proj-descrip {
+  margin: 10px;
+
+}
+
+.proj-descrip a{
+  text-decoration: none;
+  font-style: italic;
+}
+ 
+
+
+
+
+   
+
+/* contact */
+
+.contact {
+   background-image: url(./imgs/bg-contact.gif);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
