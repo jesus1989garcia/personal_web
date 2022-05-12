@@ -45,7 +45,6 @@
   display: flex;
   margin: 0px auto;
   align-items: center;
-  justify-content: space-around;
 }
 
 .text-home {
@@ -54,6 +53,8 @@
   background-color: rgb(0, 0, 0);
   opacity: 0.8;
   padding: 40px;
+  margin-right: 100px;
+  margin-left: 200px;
 }
 
 
@@ -61,7 +62,7 @@
 .portrait-img {
   width: 300px;
   height: auto;
-  
+  margin-left: 100px;
 }
 
 /* card style*/
@@ -169,7 +170,7 @@
 .contlink {
   background-repeat: no-repeat;
   align-content: space-around;
-  background-color: rgb(0, 42, 82);
+  background-color: rgb(1, 112, 156);
   background-size: cover;
   display: flex;
   flex-direction: row;
@@ -192,4 +193,22 @@
 
 .conct-text {
   margin-left: 20px;
+}
+
+/* error*/
+
+.error{ 
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  align-items: center;
+}
+
+.err-img {
+  height: 500px;
+  width: auto;
+}
+
+.err-img img {
+  height: 100%;
 }
