@@ -14,7 +14,7 @@
   width: 40%;
   margin-left: 40px;
   color: rgb(116, 181, 255);
-  font-size: 4.6rem;
+  font-size: 4.1rem;
 }
 
 .navbar-links {
@@ -65,7 +65,7 @@
   margin-left: 100px;
 }
 
-/* card style*/
+/* card skills style*/
 
 .skill-box {
   background-image: url(./imgs/bg-mywebsite.jpg);
@@ -104,7 +104,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,7 +116,8 @@
   opacity: 0.8;
   height: 300px;
   width: 800px;
-  margin-top: 90px;
+  margin-top: 140px;
+  margin-bottom: 40px;
   display: flex;
   color: white;
   flex-direction: row;
@@ -211,4 +212,104 @@
 
 .err-img img {
   height: 100%;
+}
+
+@media screen and (max-width: 960px) {
+
+ /*navbar styling */
+
+ 
+
+ .navbar-name {
+   font-size: 2rem;
+   margin-left: 15px;
+ }
+
+ .navbar-links {
+  font-size: 1rem;
+  justify-content: space-evenly;
+}
+
+.navbar-links h4:hover{
+  font-size: 1.2rem;
+
+}
+ /* home */
+
+ .text-home {
+  font-size: 1.2rem;
+  padding: 15px;
+  
+ }
+
+ .portrait-img {
+   width: 150px;
+   height: auto;
+   margin-left: auto;
+ }
+
+ /*card skills style */
+
+  .skill-card {
+    width: 450px;
+  }
+ 
+  .skill-imgbox {
+    height: 40px;
+    width: auto;
+  }
+
+  .skill-img {
+    height: 100%;
+    margin: 30px 20px;
+  }
+
+  /*projects */
+
+  .project-box {
+    width: 450px;
+    height: 200px;
+    margin-top: 60px;
+  }
+
+  .proj-img-box {
+    height: 200px;
+    width: auto;
+  }
+
+  .img-proj {
+    height: 100%;
+    width: auto;
+  }
+
+  .proj-descrip p{
+    display: none;
+  }
+
+   /* contact styling */
+
+   .contact {
+     height: 100%;
+     padding-bottom: 30px;
+   }
+
+   .contact-container {
+     font-size: 0.8rem;
+     width: 52%;
+   }
+
+   /*error page styling */
+
+   .error {
+    font-size: .5rem;
+  }
+
+   .err-img {
+     height: 250px;
+     
+   }
+
+   
+  
+
 }
